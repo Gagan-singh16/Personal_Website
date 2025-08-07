@@ -111,7 +111,6 @@ blockquote {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* Navbar - matching theme */
 .navbar {
   background-color: var(--secondary);
   max-width: 900px;
@@ -145,7 +144,10 @@ blockquote {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* Blog post cards */
+.navbar a:hover{
+  color :#4ade80;
+}
+
 .blog-post {
   background: var(--primary);
   border: 1px solid var(--gray);
@@ -164,7 +166,6 @@ blockquote {
   color: var(--accent);
 }
 
-/* Full blog page */
 .blog-post-full {
   max-width: 700px;
   margin: auto;
@@ -174,7 +175,6 @@ blockquote {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Share buttons */
 .share-buttons {
   margin-top: 2rem;
   font-family: 'Source Code Pro', monospace;
