@@ -145,8 +145,8 @@ blockquote {
   transition: color 0.3s ease;
 }
 
-.navbar a:hover{
-  color :#4ade80;
+.navbar a:hover {
+  color: #4ade80;
 }
 
 .blog-post {
@@ -206,18 +206,20 @@ blockquote {
     font-size: 2rem;
   }
 
-  .navbar{
+  .navbar {
     padding: 0.5rem;
     margin: 1rem auto;
     border-radius: 2rem;
   }
-  .navbar ul{
+
+  .navbar ul {
     display: flex;
-    flex-wrap: wrap;            
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;              
+    gap: 1rem;
     padding: 0.5rem 1rem;
   }
+
   .navbar ul.active {
     display: flex;
   }
@@ -226,7 +228,7 @@ blockquote {
     margin: 0;
   }
 
-    .navbar a {
+  .navbar a {
     line-height: 1.2;
     font-size: 0.95rem;
     padding: 0.25rem 0.5rem;
@@ -237,7 +239,7 @@ blockquote {
   }
 
   .navbar a:hover {
-  color: #4ade80;
+    color: #4ade80;
   }
 
 }
